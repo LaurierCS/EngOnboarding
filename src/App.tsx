@@ -22,17 +22,17 @@ function App() {
           {teamMembers.map((member, index) => (
             <div 
               key={index} 
-              className="bg-slate-800 rounded-2xl p-6 sm:p-8 w-[280px] sm:w-[260px] md:w-[280px] min-h-[320px] flex flex-col shadow-[0_0_50px_-12px_rgba(0,0,0,0.25)] border border-slate-700"
+              className={`rounded-2xl p-6 sm:p-8 w-[280px] sm:w-[260px] md:w-[280px] min-h-[320px] flex flex-col shadow-[0_0_50px_-12px_rgba(0,0,0,0.25)] ${member.cardStyle?.background || 'bg-slate-800'} ${member.cardStyle?.border || 'border border-slate-700'}`}
             >
-              <h2 className="text-2xl font-bold text-slate-100 mb-3">
+              <h2 className={`text-2xl font-bold mb-3 ${member.cardStyle?.text || 'text-slate-100'}`}>
                 {member.name}
               </h2>
-              <p className="text-slate-400 text-lg font-medium mb-8">{member.role}</p>
+              <p className={`text-lg font-medium mb-8 ${member.cardStyle?.text || 'text-slate-400'}`}>{member.role}</p>
 
               {member.funFact && (
                 <div className="border-t border-slate-700 pt-6 mb-6">
                   <p className="font-semibold text-blue-400 mb-2">Fun fact:</p>
-                  <p className="text-slate-300 leading-relaxed line-clamp-3">
+                  <p className={`leading-relaxed line-clamp-3 ${member.cardStyle?.text || 'text-slate-300'}`}>
                     {member.funFact}
                   </p>
                 </div>
@@ -44,7 +44,7 @@ function App() {
                     href={`https://github.com/${member.githubUsername}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center text-slate-400 hover:text-blue-400 transition-colors duration-200"
+                    className={`inline-flex items-center ${member.cardStyle?.text || 'text-slate-400'} hover:text-blue-400 transition-colors duration-200`}
                   >
                     <img src={githubIcon} alt="GitHub" className="w-5 h-5 mr-2 opacity-75" />
                     @{member.githubUsername}

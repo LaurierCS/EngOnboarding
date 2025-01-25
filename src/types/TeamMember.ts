@@ -3,4 +3,9 @@ export interface TeamMember {
   role: string;
   funFact?: string;
   githubUsername?: string;
+  cardStyle?: {
+    background?: string;
+    border?: string;
+    text?: string;
+  };
 } 
