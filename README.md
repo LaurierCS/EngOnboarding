@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+# 🚀 LCS Engineering Team Directory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Laurier Computing Society Engineering Team onboarding project! This is a simple, fun way to learn essential developer tools and workflows.
 
-Currently, two official plugins are available:
+## 🎯 Your Mission
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add yourself to our team directory by creating a pull request. Along the way, you'll learn:
 
-## Expanding the ESLint configuration
+- Git basics (cloning, branching, committing)
+- GitHub workflows (PRs, reviews, CI/CD)
+- React & TypeScript fundamentals
+- Modern web styling with Tailwind CSS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🏗️ Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+1. **Fork & Clone**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/EngOnboarding.git
+   cd EngOnboarding
+   pnpm install
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+2. **Create Your Card**
+   ```bash
+   # Create a new branch
+   git checkout -b add-YOUR_NAME
+
+   # Create your file
+   cp src/team/example.ts src/team/YOUR_NAME.ts
+   ```
+
+3. **Make It Yours**
+   - Edit your new file with your info
+   - Customize your card's style (optional)
+   - Test locally with `pnpm dev`
+
+4. **Submit**
+   ```bash
+   git add .
+   git commit -m "Add YOUR_NAME to team"
+   git push -u origin add-YOUR_NAME
+   ```
+   Then open a pull request!
+
+## 🎨 Card Customization
+
+Want to stand out? Customize your card's appearance:
+```typescript
+cardStyle: {
+    background: "bg-purple-800",    // Any Tailwind bg class
+    border: "border-purple-600",    // Border style
+    text: "text-purple-100"         // Text color
+}
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 💡 Need Help?
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Check out [GitHub's Git Guide](https://github.com/git-guides)
+- Review [React's Documentation](https://react.dev)
+- Ask in `#🔧 | eng` on discord
