@@ -22,7 +22,7 @@ function App() {
           {teamMembers.map((member, index) => (
             <div 
               key={index} 
-              className="bg-slate-800 rounded-2xl p-6 sm:p-8 w-[280px] sm:w-[260px] md:w-[280px] shadow-[0_0_50px_-12px_rgba(0,0,0,0.25)] border border-slate-700"
+              className="bg-slate-800 rounded-2xl p-6 sm:p-8 w-[280px] sm:w-[260px] md:w-[280px] min-h-[320px] flex flex-col shadow-[0_0_50px_-12px_rgba(0,0,0,0.25)] border border-slate-700"
             >
               <h2 className="text-2xl font-bold text-slate-100 mb-3">
                 {member.name}
@@ -31,17 +31,15 @@ function App() {
 
               {member.funFact && (
                 <div className="border-t border-slate-700 pt-6 mb-6">
-                  <p className="text-slate-300 leading-relaxed">
-                    <span className="font-semibold text-blue-400">
-                      Fun fact:{' '}
-                    </span>
+                  <p className="font-semibold text-blue-400 mb-2">Fun fact:</p>
+                  <p className="text-slate-300 leading-relaxed line-clamp-3">
                     {member.funFact}
                   </p>
                 </div>
               )}
 
               {member.githubUsername && (
-                <div className="border-t border-slate-700 pt-6">
+                <div className="border-t border-slate-700 pt-6 mt-auto">
                   <a
                     href={`https://github.com/${member.githubUsername}`}
                     target="_blank"
