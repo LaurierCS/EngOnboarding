@@ -2,6 +2,8 @@
 
 Welcome to the Laurier Computing Society Engineering Team onboarding project! This is a simple, fun way to learn essential developer tools and workflows.
 
+https://lcsonboarding.vercel.app/
+
 ## 🎯 Your Mission
 
 Add yourself to our team directory by creating a pull request. Along the way, you'll learn:
