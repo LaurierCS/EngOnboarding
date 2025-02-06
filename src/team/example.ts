@@ -3,7 +3,7 @@ import { TeamMember } from "../types/TeamMember";
 export const exampleMember: TeamMember = {
     name: "Example Member",
     role: "Software Engineer",
-    funFact: "I don't like rock climbing!",
+    funFact: "I like to rock climb!",
     githubUsername: "example-user",
     // Feel free to customize your card's styles!
     cardStyle: {
