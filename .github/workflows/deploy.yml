@@ -42,8 +42,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install
-
+        run: pnpm install 
       - name: Type check
         run: pnpm type-check
 
@@ -52,6 +51,7 @@ jobs:
 
   deploy:
     needs: check
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -93,5 +93,4 @@ jobs:
         run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
 
       - name: Deploy to Vercel
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }} 
