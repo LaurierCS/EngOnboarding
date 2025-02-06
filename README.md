@@ -28,7 +28,7 @@ Add yourself to our team directory by creating a pull request. Along the way, yo
    git checkout -b add-YOUR_NAME
 
    # Create your file
-   Mac/Linx: cp src/team/example.ts src/team/YOUR_NAME.ts
+   Mac/Linux: cp src/team/example.ts src/team/YOUR_NAME.ts
    Windows: copy src\team\example.ts src\team\YOUR_NAME.ts
    ```
 
