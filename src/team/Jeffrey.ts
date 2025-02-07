@@ -1,6 +1,6 @@
 import { TeamMember } from "../types/TeamMember";
 
-export const exampleMember: TeamMember = {
+export const Jeffrey: TeamMember = {
     name: "Jeffrey",
     role: "Software Engineer",
     funFact: "I like cars.",
