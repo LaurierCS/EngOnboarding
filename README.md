@@ -21,6 +21,7 @@ Install https://nodejs.org/en
    ```bash
    git clone https://github.com/YOUR_USERNAME/EngOnboarding.git
    cd EngOnboarding
+   npm install pnpm
    pnpm install
    ```
 
