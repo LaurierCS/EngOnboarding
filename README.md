@@ -15,10 +15,13 @@ Add yourself to our team directory by creating a pull request. Along the way, yo
 
 ## 🏗️ Getting Started
 
+Install https://nodejs.org/en
+
 1. **Fork & Clone**
    ```bash
    git clone https://github.com/YOUR_USERNAME/EngOnboarding.git
    cd EngOnboarding
+   npm install -g pnpm
    pnpm install
    ```
 
