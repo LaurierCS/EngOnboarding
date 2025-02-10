@@ -8,6 +8,7 @@ import { david } from "./david"
 import { Zahra } from "./Zahra"
 import { Jeffrey } from "./Jeffrey";
 import { michael } from "./michael";
+import { abdullah } from "./abdullah";
 import { kian } from "./kian";
 
 
@@ -21,6 +22,7 @@ export const teamMembers: TeamMember[] = [
     Jeffrey,
     david,
     michael,
+    abdullah
     kian
     Zahra,
     michael
