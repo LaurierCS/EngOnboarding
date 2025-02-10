@@ -7,7 +7,6 @@ import { Zain } from "./ZainBabarr";
 import { david } from "./david"
 import { Zahra } from "./Zahra"
 import { Jeffrey } from "./Jeffrey";
-import { david } from "./david";
 import { michael } from "./michael";
 
 
