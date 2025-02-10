@@ -22,8 +22,8 @@ export const teamMembers: TeamMember[] = [
     Jeffrey,
     david,
     michael,
-    abdullah
-    kian
+    abdullah,
+    kian,
     Zahra,
     michael
     // Add yourself here!
