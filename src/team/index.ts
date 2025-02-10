@@ -7,6 +7,7 @@ import { Zain } from "./ZainBabarr";
 import { Jeffrey } from "./Jeffrey";
 import { david } from "./david";
 import { michael } from "./michael";
+import { abdullah } from "./abdullah";
 
 
 // Import your file here and add it to the array!
@@ -18,6 +19,7 @@ export const teamMembers: TeamMember[] = [
     markus,
     Jeffrey,
     david,
-    michael
+    michael,
+    abdullah
     // Add yourself here!
 ]; 
