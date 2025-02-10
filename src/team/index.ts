@@ -4,8 +4,9 @@ import { amir } from "./amir";
 import { markus } from "./markus";
 import { sharib } from "./sharib";
 import { Zain } from "./ZainBabarr"; 
+import { david } from "./david"
+import { Zahra } from "./Zahra"
 import { Jeffrey } from "./Jeffrey";
-import { david } from "./david";
 import { michael } from "./michael";
 
 
@@ -18,6 +19,7 @@ export const teamMembers: TeamMember[] = [
     markus,
     Jeffrey,
     david,
+    Zahra,
     michael
     // Add yourself here!
 ]; 
