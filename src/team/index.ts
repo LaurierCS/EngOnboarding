@@ -13,6 +13,7 @@ import { kian } from "./kian";
 import { carter } from "./carter";
 import { YariG } from "./YariG";
 import { xavier } from "./xavier";
+import { Bradley } from "./Bradley";
 
 // Import your file here and add it to the array!
 export const teamMembers: TeamMember[] = [
@@ -30,6 +31,7 @@ export const teamMembers: TeamMember[] = [
     michael,
     carter,
     YariG,
-    xavier
+    xavier,
+    Bradley
     // Add yourself here!
 ]; 
