@@ -1,7 +1,7 @@
 import { TeamMember } from "../types/TeamMember";
 
-export const exampleMember: TeamMember = {
-    name: "Xavier D'Mell",
+export const xavier: TeamMember = {
+    name: "Xavier D'Mello",
     role: "Software Engineer",
     funFact: "I like dogs!",
     githubUsername: "xavierdmello",
