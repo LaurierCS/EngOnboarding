@@ -2,7 +2,7 @@ import { TeamMember } from "../types/TeamMember";
 
 export const sharib: TeamMember = {
   name: "Sharib Kabani",
-  role: "Software Engineer",
+  role: "VP of Engineering",
   funFact: "I play soccer!",
   githubUsername: "sharibkabani",
   // Feel free to customize your card's styles!
