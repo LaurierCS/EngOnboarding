@@ -8,7 +8,7 @@ export const chris: TeamMember = {
   // Feel free to customize your card's styles!
   cardStyle: {
     background: "bg-blue-000",
-    border: "border border-slate-300",
-    text: "text-slate-300",
+    border: "border border-purple-400",
+    text: "text-red-500",
   },
 };
