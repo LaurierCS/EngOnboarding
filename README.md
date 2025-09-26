@@ -21,8 +21,8 @@ Install https://nodejs.org/en
    ```bash
    git clone https://github.com/YOUR_USERNAME/EngOnboarding.git
    cd EngOnboarding
-   npm install -g pnpm
-   pnpm install
+   npm install -g bun
+   bun install
    ```
 
 2. **Create Your Card**
@@ -38,7 +38,7 @@ Install https://nodejs.org/en
 3. **Make It Yours**
    - Edit your new file with your info
    - Customize your card's style (optional)
-   - Test locally with `pnpm dev`
+   - Test locally with `bun dev`
 
 4. **Submit**
    ```bash
