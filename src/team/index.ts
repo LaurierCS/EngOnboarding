@@ -1,4 +1,5 @@
 import { TeamMember } from "../types/TeamMember";
 import { sharib } from "./sharib";
+import { benjamin } from "./benjamin";
 
-export const teamMembers: TeamMember[] = [sharib];
+export const teamMembers: TeamMember[] = [sharib, benjamin];
