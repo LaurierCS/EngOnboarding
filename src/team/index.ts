@@ -6,5 +6,6 @@ import { chris } from "./chris";
 import { spencer } from "./spencer";
 import { raafay } from "./raafay";
 import { benjamin } from "./benjamin";
+import { michelle } from "./michelle";
 
-export const teamMembers: TeamMember[] = [sharib, ahmad, hunter, chris, spencer, raafay, benjamin];
+export const teamMembers: TeamMember[] = [sharib, ahmad, hunter, chris, spencer, raafay, benjamin, michelle];
